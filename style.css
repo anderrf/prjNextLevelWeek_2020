@@ -36,7 +36,7 @@ html, body{
 }
 
 body{
-    background: var(--color-background);
+    background: var(--color-primary-dark);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,4 +50,55 @@ body, input, button, textarea{
 #container{
     width: 90vw;
     max-width: 700px;
+}
+
+.upper, .lower, .buttons{
+    display: flex;
+}
+
+.lower{
+    margin-top: 20vh;
+}
+
+.logoSlogan, .imgLanding{
+    max-width: 100%;
+}
+
+.logoSlogan{
+    align-self: center;
+}
+
+.imgIndex{
+    max-width: 70%;
+}
+
+.btnIndex{
+    padding: 5px;
+    min-width: 7vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-box-base);
+}
+
+.logoSlogan>p, .info{
+    color: var(--color-text-in-primary);
+}
+
+#btnEstudar{
+    background-color: var(--color-primary-light);
+}
+
+#btnDarAulas{
+    background-color: var(--color-secondary);
+    margin-left: 1vw;
+}
+
+button>img{
+    max-width: 30%;
+}
+
+.info{
+    margin: auto;
 }

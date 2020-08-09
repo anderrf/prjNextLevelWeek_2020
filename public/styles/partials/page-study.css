@@ -12,7 +12,7 @@
 }
 
 #search-teachers label{
-    color: var(--color-text-in-primary);
+    color: var(--color-box-base);
 }
 
 #search-teachers .select-block{
